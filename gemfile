@@ -1,0 +1,30 @@
+
+# Front
+
+## html
+gem 'haml-rails'      # haml
+
+## css
+gem 'sass-rails'      # sass
+gem 'bootstrap-sass'  # bootstrap
+gem 'compass-rails'   # copmpass
+
+## js
+gem 'jquery-rails'    # jquery
+
+# Back
+
+## debug
+gem 'better_erros'    # エラー画面をわかりやすくする
+gem 'pry-rails'
+gem 'pry-byebug'
+gem 'awesome_print'   # ログをわかりやすくする
+gem 'hirb'            # コンソールでModelを表形式で表示
+gem 'hirb-unicode'    # hirbを日本語に対応させる
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'factory_bot_rails'
+  gem 'database_cleaner'
+end
